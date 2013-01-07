@@ -59,3 +59,34 @@ a:visited {
 a:active {
 	text-decoration: none;
 }
+
+iframe {
+  width: 960px;
+  height: 1480px;
+  margin-top: -10px;
+  border: none;
+}
+
+.arrow_box {
+	position: relative;
+	border: 2px solid black;
+    margin-top: -15px;
+    width: 960px;
+}
+.arrow_box:after, .arrow_box:before {
+	bottom: 100%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.arrow_box:after {
+	border-color: rgba(178, 213, 40, 0);
+	border-bottom-color: black;
+	border-width: 10px;
+	left: 50%;
+	margin-left: -60px;
+}

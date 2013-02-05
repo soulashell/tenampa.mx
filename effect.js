@@ -3,6 +3,6 @@ $(document).ready(function() {
         $('#logo').addClass('animated flipInX');
         $('#loadFrame').click(function(e){
           e.preventDefault();
-          $('.arrow_box').toggle();
-        })
+          $('.arrow_box').toggle(100);
+        });
 });

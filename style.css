@@ -90,3 +90,12 @@ iframe {
 	left: 50%;
 	margin-left: -60px;
 }
+
+.footer {
+  display: block;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 20px;
+  padding-left: 40px;
+}

@@ -5,9 +5,9 @@ body {
 	font-family: 'Monda', sans-serif;
 	font-size: 12px;
 	color: #333;
-	width: 960px;
-	margin: auto;
 	font-weight: 400;
+	margin-left: 0;
+	margin-right: 0; 
 }
 
 #logo-container {
@@ -22,23 +22,24 @@ body {
 }
 
 #merchant-container {
-  position: absolute;
+  margin: auto;
+  width: 960px;
   margin-top: -75px
 }
 
 .merchant {
-  width: 960px;
+  position: relative;
   font-size: 15px;
   text-align: center;
 }
 
 .info-container {
-  position: absolute;
-  margin-top: -40px;
+  margin: auto;
+  width: 960px;
 }
 
 .info {
-  width: 960px;
+  position: relative;
   text-align: center;
 }
 
@@ -60,42 +61,24 @@ a:active {
 	text-decoration: none;
 }
 
-iframe {
-  width: 960px;
-  height: 1480px;
-  margin-top: -10px;
-  border: none;
-}
-
 .arrow_box {
-	position: relative;
-	border: 2px solid black;
-    margin-top: -15px;
-    width: 960px;
-}
-.arrow_box:after, .arrow_box:before {
-	bottom: 100%;
-	border: solid transparent;
-	content: " ";
-	height: 0;
-	width: 0;
-	position: absolute;
-	pointer-events: none;
+  box-shadow: inset 1px 4px 9px -6px;
 }
 
-.arrow_box:after {
-	border-color: rgba(178, 213, 40, 0);
-	border-bottom-color: black;
-	border-width: 10px;
-	left: 50%;
-	margin-left: -60px;
+.footer, .push {
+  height: 1em;
+}
+
+.push {
+  clear: both;
 }
 
 .footer {
-  display: block;
-  position: fixed;
-  right: 0;
-  bottom: 0;
+  position: relative;
+  width: auto;
+  text-align: right;
   height: 20px;
   padding-right: 5px;
+  clear: both;
 }
+

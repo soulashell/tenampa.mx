@@ -1,15 +1,9 @@
-@import url(http://fonts.googleapis.com/css?family=Monda:400,700);
-
 body {
   -webkit-font-smoothing: antialiased;
   font-family: 'Monda', sans-serif;
 }
 
 .space {
-  height: 20px;
-}
-
-.footer {
   height: 20px;
 }
 

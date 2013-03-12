@@ -62,15 +62,8 @@ a:active {
 }
 
 .arrow_box {
-  box-shadow: inset 1px 4px 9px -6px;
-}
-
-.footer, .push {
-  height: 1em;
-}
-
-.push {
-  clear: both;
+  box-shadow: inset  1px  4px 9px -6px #696868, 
+              inset  1px -4px 9px -6px #696868;
 }
 
 .footer {
@@ -79,6 +72,6 @@ a:active {
   text-align: right;
   height: 20px;
   padding-right: 5px;
-  clear: both;
+  margin-top: 40px;
 }
 

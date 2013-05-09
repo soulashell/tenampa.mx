@@ -7,7 +7,7 @@ body {
 	color: #333;
 	font-weight: 400;
 	margin-left: 0;
-	margin-right: 0; 
+	margin-right: 0;
 }
 
 #logo-container {
@@ -68,10 +68,8 @@ a:active {
 
 .footer {
   position: relative;
-  width: auto;
+  width: 100%;
   text-align: right;
-  height: 20px;
-  padding-right: 5px;
-  margin-top: 40px;
+  right: 5px;
 }
 

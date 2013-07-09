@@ -22,7 +22,7 @@
     </div>
     <div class="info-container">
       <div class="info">
-        <a class="hint hint--left" data-hint="Send only SoundCloud links. Thanks." href="mailto:gabriel@tenampa.mx">Contact</a> | <a href="#" id="loadArtists">Artists</a> | <a href="http://www.facebook.com/tenamparecordings" target="_blank">Facebook</a> | <a href="http://www.soundcloud.com/tenampa-recordings" target="_blank">Soundcloud</a>
+        <a class="hint hint--left" data-hint="Send only SoundCloud links. Thanks." href="javascript:$.balloon({ username: 'soulashell/tenampa-recordings' })">Contact</a> | <a href="#" id="loadArtists">Artists</a> | <a href="http://www.facebook.com/tenamparecordings" target="_blank">Facebook</a> | <a href="http://www.soundcloud.com/tenampa-recordings" target="_blank">Soundcloud</a>
       </div>
     </div>
     <div class="artist_container">
@@ -368,6 +368,7 @@
     <div class="footer">
       &copy;MMXIII Tenampa Recordings Mexico
     </div>
+    <script src="https://balloon.io/embed/js/balloon.js" type="text/javascript"></script>
     <script type="text/javascript">
       var GoSquared = {};
       GoSquared.acct = "GSN-120952-W";
@@ -384,7 +385,7 @@
           w.addEventListener("load", gs, false) :
           w.attachEvent("onload", gs);
       })(window);
-</script>
+    </script>
     <script type="text/javascript">
 
     var _gaq = _gaq || [];

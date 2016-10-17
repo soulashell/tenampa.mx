@@ -1,41 +1,37 @@
-@import url(http://fonts.googleapis.com/css?family=Monda:400,700);
-
 body {
   -webkit-font-smoothing: antialiased;
 	font-family: 'Monda', sans-serif;
-	font-size: 12px;
+	font-size: 1.5vw;
 	color: #333;
 	font-weight: 400;
-	margin-left: 0;
-	margin-right: 0;
 }
 
 #logo-container {
   margin: auto;
-  width: 960px;
+  width: 80%
 }
 
 #logo {
-  width: 300px;
-  margin-left: 310px;
-  margin-top: 180px;
+  display: block;
+  margin: auto;
+  width: 70%;
+  margin-top: 25%
 }
 
 #merchant-container {
   margin: auto;
-  width: 960px;
-  margin-top: -75px
+  width: 100%;
 }
 
 .merchant {
   position: relative;
-  font-size: 15px;
+  font-size: 2vw;
   text-align: center;
 }
 
 .info-container {
   margin: auto;
-  width: 960px;
+  width: 100%;
 }
 
 .info {
@@ -55,14 +51,8 @@ a:visited {
 	text-decoration: none;
 	background-color: #000;
 	color: #FFF;
-	
+
 }
 a:active {
 	text-decoration: none;
 }
-
-.arrow_box {
-  box-shadow: inset  1px  4px 9px -6px #696868, 
-              inset  1px -4px 9px -6px #696868;
-}
-

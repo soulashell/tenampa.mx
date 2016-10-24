@@ -1,7 +1,7 @@
 body {
   -webkit-font-smoothing: antialiased;
 	font-family: 'Monda', sans-serif;
-	font-size: 1.2vw;
+	font-size: 1vw;
 	font-weight: 400;
 }
 
@@ -27,8 +27,9 @@ a {
 }
 
 .merchant {
+  margin-top: 2%;
   position: relative;
-  font-size: 1.3vw;
+  font-size: 1.1vw;
   text-align: center;
 }
 

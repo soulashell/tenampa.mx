@@ -55,8 +55,8 @@ a:visited {
 .merchant a:hover,
 .info a:hover {
 	text-decoration: none;
-	background-color: #000;
-	color: #FFF;
+	background-color: #e72a21;
+	color: #000;
 
 }
 a:active {

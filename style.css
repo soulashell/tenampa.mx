@@ -3,18 +3,20 @@ body {
 	font-family: 'Monda', sans-serif;
 	font-size: 1vw;
 	font-weight: 400;
+  background-color: #070707;
+  margin: 0;
 }
 
 #logo-container {
   margin: auto;
-  width: 45%
+  width: 100%;
 }
 
 #logo {
   display: block;
   margin: auto;
   width: 100%;
-  margin-top: 25%
+  margin-top: 5%;
 }
 
 a {
@@ -53,8 +55,8 @@ a:visited {
 .merchant a:hover,
 .info a:hover {
 	text-decoration: none;
-	background-color: #000;
-	color: #FFF;
+	background-color: #e72a21;
+	color: #000;
 
 }
 a:active {

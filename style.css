@@ -1,38 +1,43 @@
+html {
+  background-color: #181818;
+}
+
+html, body {
+  height: 100%;
+}
+
 body {
-  -webkit-font-smoothing: antialiased;
-	font-family: 'Monda', sans-serif;
-	font-size: 1vw;
-	font-weight: 400;
-  background-color: #070707;
-  margin: 0;
-}
-
-#logo-container {
-  margin: auto;
-  width: 100%;
-}
-
-#logo {
-  display: block;
-  margin: auto;
-  width: 100%;
+  background-image: url('tnmp_fondo@2x.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
   margin-top: 5%;
+  margin-left: 0;
+  margin-right: 0;
+  font-family: 'Monda', sans-serif;
 }
 
-a {
-  color: #666;
+.logo {
+  width: 7%;
+  margin-top: 17%;
+  margin-left: 10%;
 }
 
-#merchant-container {
+.lttrs {
+  float: right;
+  width: 14%;
+  margin-right: 9%;
+  margin-top: 19%;
+}
+
+.merchant-container {
   margin: auto;
   width: 100%;
 }
 
 .merchant {
-  margin-top: 2%;
-  position: relative;
-  font-size: 1.1vw;
   text-align: center;
+  margin-top: 11.5%;
+  font-size: 1.4vw;
 }
 
 .info-container {
@@ -41,24 +46,24 @@ a {
 }
 
 .info {
-  position: relative;
   text-align: center;
+  font-size: 1.4vw;
+  margin-right: 3%;
 }
 
-a:link {
-	text-decoration: none;
-}
-a:visited {
-	text-decoration: none;
+a {
+  color: #666;
 }
 
-.merchant a:hover,
-.info a:hover {
-	text-decoration: none;
-	background-color: #e72a21;
-	color: #000;
-
+a:link, a:visited {
+  text-decoration: none;
 }
-a:active {
-	text-decoration: none;
+
+a:hover {
+  background-color: #e72a21;
+  color: #000;
+}
+
+.demos {
+  color: #e72a21;
 }

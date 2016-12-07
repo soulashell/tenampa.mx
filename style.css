@@ -1,3 +1,24 @@
+@font-face {
+    font-family: 'gothicCon';
+    src: url('leaguegothic-condensedregular-webfont.woff2') format('woff2'),
+         url('leaguegothic-condensedregular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'gothic';
+    src: url('leaguegothic-regular-webfont.woff2') format('woff2'),
+         url('leaguegothic-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 html {
   background-color: #181818;
 }
@@ -13,7 +34,8 @@ body {
   margin-top: 5%;
   margin-left: 0;
   margin-right: 0;
-  font-family: 'Monda', sans-serif;
+  font-family: 'gothicCon', sans-serif;
+  letter-spacing: 0.18vw;
 }
 
 .logo {
@@ -37,22 +59,15 @@ body {
 .merchant {
   text-align: center;
   margin-top: 11.5%;
-  font-size: 1.4vw;
-}
+  font-size: 2.5vw;
 
-.info-container {
-  margin: auto;
-  width: 100%;
-}
-
-.info {
-  text-align: center;
-  font-size: 1.4vw;
-  margin-right: 3%;
 }
 
 a {
-  color: #666;
+  color: #d1d1d1;
+  margin-top: 2vw;
+  margin-left: 0.25vw;
+  margin-right: 0.25vw;
 }
 
 a:link, a:visited {
@@ -60,7 +75,7 @@ a:link, a:visited {
 }
 
 a:hover {
-  background-color: #e72a21;
+  background-color: #e42d2b;
   color: #000;
 }
 

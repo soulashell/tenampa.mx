@@ -55,6 +55,7 @@ body {
   text-align: center;
   margin-top: 15vw;
   font-size: 2.5vw;
+  margin-left: -4%;
 }
 
 a {
@@ -83,6 +84,11 @@ ul {
 
 .merchant li {
   display: inline;
+}
+
+li:nth-child(7):after {
+  content: "\a";
+  white-space: pre;
 }
 
 @media (max-width: 600px) {

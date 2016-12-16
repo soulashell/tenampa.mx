@@ -54,7 +54,7 @@ body {
 .merchant {
   text-align: center;
   margin-top: 15vw;
-  font-size: 2.5vw;
+  font-size: 1.75em;
   margin-left: -4%;
 }
 
@@ -111,7 +111,7 @@ li:nth-child(7):after {
   }
   
   .merchant {
-    font-size: 12vw;
+    font-size: 2.3em;
     margin-right: 10%;
     margin-top: 1%;
   }
@@ -132,6 +132,6 @@ li:nth-child(7):after {
     background-repeat: no-repeat;
     background-position: 47%;
     background-blend-mode: screen;
-    margin-top: -15%;
+    margin-top: -10%;
   }
 }

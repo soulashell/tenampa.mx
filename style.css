@@ -86,7 +86,7 @@ ul {
   display: inline;
 }
 
-li:nth-child(7):after {
+li:nth-child(6):after {
   content: "\a";
   white-space: pre;
 }
